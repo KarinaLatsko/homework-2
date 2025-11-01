@@ -1,0 +1,30 @@
+.some-text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  text-decoration: line-through;
+}
+
+.text-uppercase {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text-word-spacing {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  word-spacing: 30px;
+  text-decoration: overline wavy;
+  text-shadow: 1px 1px 0px #b477ed;
+}
+
+.text-letter-spacing {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  letter-spacing: 5px;
+  text-decoration: underline double;
+}
