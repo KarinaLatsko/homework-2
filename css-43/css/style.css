@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+
+ul {
+  background: #e0d2ef56;
+  border: 1px solid #000;
+  border-radius: 30px 0 0 30px;
+  overflow: auto;
+  font-size: 25px;
+  max-height: 800px;
+  padding-inline-start: 10px;
+}
+li {
+  background: #dec095;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  max-width: 400px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: inset 0px 0px 17px 9px #00000054;;
+}
