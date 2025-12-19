@@ -1,0 +1,32 @@
+* {
+    background: #1f1f1f;
+    color: #fff;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1::before {
+    content: '';
+    display: inline-block;
+    background: #ee5656;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    transform: translate(-34%, 31%);
+}
+
+h1::after {
+    content: '';
+    display: inline-block;
+    background: #a842e3;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    transform: translate(50%, 30%);
+}
